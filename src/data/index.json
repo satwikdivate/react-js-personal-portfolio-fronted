@@ -1,0 +1,214 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "C++",
+      "description": ""
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Java",
+      "description": ""
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Javascript",
+      "description": ""
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Webflow Development",
+      "description": ""
+    },{
+      "id": "5",
+      "src": "./img/feather-pen-1.png",
+      "title": "Webflow Development",
+      "description": ""
+    }
+  ],
+  "certification":[
+    {
+        "Heading":"MERN Stack (CodeHelp)",
+        "Logo":"./img/mern2.jpeg",
+        "Description": "Fully committed to the uccess company",
+        "link":"https://drive.google.com/file/d/1D9JXfl1QVDWNIeP8I7H39eJROI80ziKn/view"
+      },
+    {
+        "Heading":"React Creating Full Stack Application (LinkedIn Learning)",
+        "Logo":"./img/mernstack.jpeg",
+        "Description": "Fully committed to the uccess company",
+        "link":"https://drive.google.com/file/d/1heeV32bKb9BCmZa2FkgAnyPzzHZEK889/view"
+      },
+    {
+        "Heading":"OOP in C++  (Code Studio)",
+        "Logo":"./img/oops.jpeg",
+        "Description": "Fully committed to the uccess company",
+        "link":"https://drive.google.com/file/d/11w6iaDwG5d073jMNDENqh_eISp6j15kF/view"
+        
+      },
+    {
+        "Heading":"Javascript Basics (Code Studio)",
+        "Logo":"./img/javascript.jpeg",
+        "Description": "Fully committed to the uccess company",
+        "link":"https://drive.google.com/file/d/1074Mxz_EVgMgNI0p6CUaqGS20aBZ1Atm/view"
+      },
+    {
+        "Heading":"Mendix Low Code Application  (Udemy)",
+        "Logo":"./img/mendix.jpeg",
+        "Description": "Fully committed to the uccess company",
+        "link":"https://drive.google.com/file/d/1eHVfvJNG5l6zpcJlFShVpTd6dF_kNqPG/view"
+      }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "src": "./img/project1.png",
+      "title": "Swami Dayanand Shakha Student Portal ",
+      "description": "Implemented a digital transformation initiative, digitizing all paperwork processes and streamlining data storage. This resulted in a 50% reduction in administrative overhead.",
+      "link": "https://sdss-portal.vercel.app/"
+    },
+    {
+      "id": "2",
+      "src": "./img/project2.png",
+      "title": "StudyNotion an Online Education Platform  ",
+      "description": "StudyNotion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content",
+      "link": "https://study-notion-frontend-two-omega.vercel.app/login"
+    },
+    {
+      "id": "3",
+      "src": "./img/project3.png",
+      "title": "Smart Card Attendance Monitoring System usin    RFID ",
+      "description": "The Smart Card Attendance Monitoring System tracks attendance correctly and effectively in a variety of situations by utilizing RFID technology, smart motion sensors, and RFID-enabled smart cards.",
+     
+      "link": "View In Github"
+    }
+  ],
+  "Web":[
+    {
+      "id": "1",
+       "src": "./img/react.jpeg",
+      "title": "React JS",
+      "description": ""
+    },{
+      "id": "2",
+      "src": "./img/nodejs.jpeg",
+      "title": "Node JS",
+      "description": ""
+    },
+    {
+      "id": "21",
+      "src": "./img/javascript.jpeg",
+      "title": "Javascript",
+      "description": ""
+    },
+    {
+      "id": "3",
+      "src": "./img/express.jpeg",
+      "title": "Express JS",
+      "description": ""
+    },{
+      "id": "4",
+      "src": "./img/tailwindcss.jpeg",
+      "title": "Tailwind CSS",
+      "description": ""
+    },{
+      "id": "5",
+      "src": "./img/html.jpeg",
+      "title": "HTML",
+      "description": ""
+    },
+    {
+      "id": "6",
+      "src": "./img/css.jpeg",
+      "title": "CSS",
+      "description": ""
+    }
+
+  ],
+  "databases":[
+    {
+      "id": "1",
+      "src": "./img/mysql.jpeg",
+      "title": "MySQL",
+      "description": ""
+    },
+    {
+      "id": "2",
+      "src": "./img/mongodb.jpeg",
+      "title": "Mongo DB",
+      "description": ""
+    }
+  ],
+  "tools":[
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "GitHub",
+      "description": ""
+    },
+    {
+      "id": "2",
+      "src": "./img/product-chain-1.png",
+      "title": "Canva",
+      "description": ""
+    },
+    {
+      "id": "3",
+      "src": "./img/product-chain-1.png",
+      "title": "Agile Methodology",
+      "description": ""
+    },
+    {
+      "id": "4",
+      "src": "./img/product-chain-1.png",
+      "title": "Power Point",
+      "description": ""
+    }
+  ]
+     ,
+     "Course Work":[
+      {
+        "id": "1",
+        "src": "./img/product-chain-1.png",
+        "title": "Operating System",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "src": "./img/product-chain-1.png",
+        "title": "Database Mangement System",
+        "description": ""
+      }
+
+     ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
