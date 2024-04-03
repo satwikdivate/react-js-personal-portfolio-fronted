@@ -1,0 +1,47 @@
+.skill-category-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 100px;
+  }
+  
+  .skills-section-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Show only 3 cards in a row */
+    gap: 20px;
+    padding: 20px; /* Added padding */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .skill-category-heading {
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin: 30px 100px;
+        padding: 30px 100px; /* Added margin */
+      }
+      
+      .skills-section-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Show 4 cards in a row */
+        gap: 20px;
+        padding: 20px; /* Added padding */
+      }
+      
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        .skill-category-heading {
+          margin: 20px 20px;
+          padding: 20px;
+          text-align: center;
+        }
+      
+        .skills-section-container {
+          grid-template-columns: repeat(2, 1fr); /* Show 2 cards in a row for small devices */
+          padding: 10px; /* Adjust padding for small devices */
+        }
+      }
+      
+      
+  }
+  

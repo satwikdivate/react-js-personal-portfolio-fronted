@@ -1,0 +1,88 @@
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 calc(100% / 3); /* Display 3 cards at a time */
+}
+
+.slide-content {
+  padding: 20px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 8px; /* Rounded corners for the project image */
+}
+
+.project-details {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.project-link {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.project-link:hover {
+  background-color: #555;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .slide {
+    flex: 0 0 100%; /* Display two cards at a time for medium devices */
+  }
+}

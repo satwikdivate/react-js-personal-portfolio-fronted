@@ -1,0 +1,25 @@
+.portfolio--section {
+    background-color: #f8f8f8; /* Background color for the portfolio section */
+    padding: 40px 0; /* Padding for the top and bottom of the portfolio section */
+  }
+  
+  .portfolio--container-box {
+    max-width: 1200px; /* Maximum width for the container box */
+    margin: 0 auto; 
+    flex-direction: column;/* Center the container box horizontally */
+  }
+  
+  .portfolio--container {
+    padding: 0 20px; /* Padding for the sides of the container */
+  }
+  
+  .portfolio--section--container {
+    display: flex; /* Display portfolio cards in a row */
+    justify-content: center; /* Center the slider horizontally */
+  }
+  
+  .portfolio--section--center {
+    width: 100%; /* Ensure the slider takes full width */
+    max-width: 1200px; /* Limit the width of the slider */
+  }
+  

@@ -1,0 +1,87 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* Change background color as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar.active {
+    background-color: #f0f0f0; /* Change background color for active state */
+  }
+  
+  .nav__hamburger {
+    display: none; /* Hide hamburger menu by default */
+    cursor: pointer;
+  }
+  
+  .nav__hamburger.active .nav__hamburger__line {
+    background-color: #333; /* Change hamburger menu color for active state */
+  }
+  
+  .nav__hamburger__line {
+    width: 25px;
+    height: 3px;
+    background-color: #666; /* Change default hamburger menu color */
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar--items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .navbar--items ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar--items li {
+    margin: 0;
+  }
+  
+  .navbar--content {
+    color: #333; /* Change navbar content color */
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar--content:hover {
+    color: #666; /* Change navbar content color on hover */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav__hamburger {
+      display: block; /* Show hamburger menu for small devices */
+    }
+  
+    .navbar--items {
+      display: none; /* Hide navbar items by default for small devices */
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #fff; /* Change background color for navbar items */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+      z-index: 10;
+    }
+  
+    .navbar--items.active {
+      display: flex; /* Show navbar items when active */
+    }
+  
+    .navbar--items ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
